@@ -1,0 +1,11 @@
+import random
+n1=random. randint(1,1000)
+while True:
+    a=int(input("enter the number"))
+    if a==n1:
+        print("you guess correct number")
+        break
+    elif a<n1:
+        print("your guess number is lower than correct number")
+    elif a>n1:
+        print("your guess number is higher than correct number")
